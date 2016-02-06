@@ -1,5 +1,5 @@
 wordpress:
-  image: wordpress
+  image: dscook/company-website
   links:
     - db:mysql
   ports:
