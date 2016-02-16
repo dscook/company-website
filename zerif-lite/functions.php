@@ -433,9 +433,9 @@ function zerif_register_default_widgets() {
         /* our focus widget #1 */
 		$active_widgets[ 'sidebar-ourfocus' ][0] = 'ctup-ads-widget-' . $zerif_lite_counter;
         if ( file_exists( get_stylesheet_directory_uri().'/images/parallax.png' ) ):
-            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'PARALLAX EFFECT', 'text' => 'Create memorable pages with smooth parallax effects that everyone loves. Also, use our lightweight content slider offering you smooth and great-looking animations.', 'link' => '#', 'image_uri' => get_stylesheet_directory_uri()."/images/parallax.png" );
+            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'JAVA', 'text' => 'Several years experience developing Enterprise stacks and fluent in the latest Java 8 features.', 'link' => '#', 'image_uri' => get_stylesheet_directory_uri()."/images/parallax.png" );
         else:
-            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'PARALLAX EFFECT', 'text' => 'Create memorable pages with smooth parallax effects that everyone loves. Also, use our lightweight content slider offering you smooth and great-looking animations.', 'link' => '#', 'image_uri' => get_template_directory_uri()."/images/parallax.png" );
+            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'JAVA', 'text' => 'Several years experience developing Enterprise stacks and fluent in the latest Java 8 features.', 'link' => '#', 'image_uri' => get_template_directory_uri()."/images/parallax.png" );
         endif;
         update_option( 'widget_ctup-ads-widget', $ourfocus_content );
         $zerif_lite_counter++;
@@ -443,9 +443,9 @@ function zerif_register_default_widgets() {
         /* our focus widget #2 */
         $active_widgets[ 'sidebar-ourfocus' ][] = 'ctup-ads-widget-' . $zerif_lite_counter;
         if ( file_exists( get_stylesheet_directory_uri().'/images/woo.png' ) ):
-            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'WOOCOMMERCE', 'text' => 'Build a front page for your WooCommerce store in a matter of minutes. The neat and clean presentation will help your sales and make your store accessible to everyone.', 'link' => '#', 'image_uri' => get_stylesheet_directory_uri()."/images/woo.png" );
+            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'BIG DATA', 'text' => 'We can help you understand the pros and cons of NoSQL and the Hadoop ecosystem vs relational databases.', 'link' => '#', 'image_uri' => get_stylesheet_directory_uri()."/images/woo.png" );
         else:
-            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'WOOCOMMERCE', 'text' => 'Build a front page for your WooCommerce store in a matter of minutes. The neat and clean presentation will help your sales and make your store accessible to everyone.', 'link' => '#', 'image_uri' => get_template_directory_uri()."/images/woo.png" );
+            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'BIG DATA', 'text' => 'We can help you understand the pros and cons of NoSQL and the Hadoop ecosystem vs relational databases.', 'link' => '#', 'image_uri' => get_template_directory_uri()."/images/woo.png" );
         endif;
         update_option( 'widget_ctup-ads-widget', $ourfocus_content );
         $zerif_lite_counter++;
@@ -453,9 +453,9 @@ function zerif_register_default_widgets() {
         /* our focus widget #3 */
         $active_widgets[ 'sidebar-ourfocus' ][] = 'ctup-ads-widget-' . $zerif_lite_counter;
         if ( file_exists( get_stylesheet_directory_uri().'/images/ccc.png' ) ):
-            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'CUSTOM CONTENT BLOCKS', 'text' => 'Showcase your team, products, clients, about info, testimonials, latest posts from the blog, contact form, additional calls to action. Everything translation ready.', 'link' => '#', 'image_uri' => get_stylesheet_directory_uri()."/images/ccc.png" );
+            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'JAVASCRIPT', 'text' => 'We deliver responsive web apps utilising technologies such as AngularJS that look great on mobile and desktop.', 'link' => '#', 'image_uri' => get_stylesheet_directory_uri()."/images/ccc.png" );
         else:
-            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'CUSTOM CONTENT BLOCKS', 'text' => 'Showcase your team, products, clients, about info, testimonials, latest posts from the blog, contact form, additional calls to action. Everything translation ready.', 'link' => '#', 'image_uri' => get_template_directory_uri()."/images/ccc.png" );
+            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'JAVASCRIPT', 'text' => 'We deliver responsive web apps utilising technologies such as AngularJS that look great on mobile and desktop.', 'link' => '#', 'image_uri' => get_template_directory_uri()."/images/ccc.png" );
         endif;
         update_option( 'widget_ctup-ads-widget', $ourfocus_content );
         $zerif_lite_counter++;
@@ -463,9 +463,9 @@ function zerif_register_default_widgets() {
         /* our focus widget #4 */
         $active_widgets[ 'sidebar-ourfocus' ][] = 'ctup-ads-widget-' . $zerif_lite_counter;
         if ( file_exists( get_stylesheet_directory_uri().'/images/ti-logo.png' ) ):
-            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'GO PRO FOR MORE FEATURES', 'text' => 'Get new content blocks: pricing table, Google Maps, and more. Change the sections order, display each block exactly where you need it, customize the blocks with whatever colors you wish.', 'link' => '#', 'image_uri' => get_stylesheet_directory_uri()."/images/ti-logo.png" );
+            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'DEV OPS', 'text' => 'Production experience getting applications into the cloud using technologies such as Docker and Chef.', 'link' => '#', 'image_uri' => get_stylesheet_directory_uri()."/images/ti-logo.png" );
         else:
-            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'GO PRO FOR MORE FEATURES', 'text' => 'Get new content blocks: pricing table, Google Maps, and more. Change the sections order, display each block exactly where you need it, customize the blocks with whatever colors you wish.', 'link' => '#', 'image_uri' => get_template_directory_uri()."/images/ti-logo.png" );
+            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'DEV OPS', 'text' => 'Production experience getting applications into the cloud using technologies such as Docker and Chef.', 'link' => '#', 'image_uri' => get_template_directory_uri()."/images/ti-logo.png" );
         endif;
         update_option( 'widget_ctup-ads-widget', $ourfocus_content );
         $zerif_lite_counter++;
