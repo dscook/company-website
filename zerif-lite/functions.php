@@ -432,40 +432,40 @@ function zerif_register_default_widgets() {
 
         /* our focus widget #1 */
 		$active_widgets[ 'sidebar-ourfocus' ][0] = 'ctup-ads-widget-' . $zerif_lite_counter;
-        if ( file_exists( get_stylesheet_directory_uri().'/images/parallax.png' ) ):
-            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'JAVA', 'text' => 'Several years experience developing Enterprise stacks and fluent in the latest Java 8 features.', 'link' => '#', 'image_uri' => get_stylesheet_directory_uri()."/images/parallax.png" );
+        if ( file_exists( get_stylesheet_directory_uri().'/images/javalogo.png' ) ):
+            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'JAVA', 'text' => 'Several years experience developing Enterprise stacks and fluent in the latest Java 8 features.', 'link' => '#', 'image_uri' => get_stylesheet_directory_uri()."/images/javalogo.png" );
         else:
-            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'JAVA', 'text' => 'Several years experience developing Enterprise stacks and fluent in the latest Java 8 features.', 'link' => '#', 'image_uri' => get_template_directory_uri()."/images/parallax.png" );
+            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'JAVA', 'text' => 'Several years experience developing Enterprise stacks and fluent in the latest Java 8 features.', 'link' => '#', 'image_uri' => get_template_directory_uri()."/images/javalogo.png" );
         endif;
         update_option( 'widget_ctup-ads-widget', $ourfocus_content );
         $zerif_lite_counter++;
 
         /* our focus widget #2 */
         $active_widgets[ 'sidebar-ourfocus' ][] = 'ctup-ads-widget-' . $zerif_lite_counter;
-        if ( file_exists( get_stylesheet_directory_uri().'/images/woo.png' ) ):
-            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'BIG DATA', 'text' => 'We can help you understand the pros and cons of NoSQL and the Hadoop ecosystem vs relational databases.', 'link' => '#', 'image_uri' => get_stylesheet_directory_uri()."/images/woo.png" );
+        if ( file_exists( get_stylesheet_directory_uri().'/images/bigdata.png' ) ):
+            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'BIG DATA', 'text' => 'We can help you understand the pros and cons of NoSQL and the Hadoop ecosystem vs relational databases.', 'link' => '#', 'image_uri' => get_stylesheet_directory_uri()."/images/bigdata.png" );
         else:
-            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'BIG DATA', 'text' => 'We can help you understand the pros and cons of NoSQL and the Hadoop ecosystem vs relational databases.', 'link' => '#', 'image_uri' => get_template_directory_uri()."/images/woo.png" );
+            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'BIG DATA', 'text' => 'We can help you understand the pros and cons of NoSQL and the Hadoop ecosystem vs relational databases.', 'link' => '#', 'image_uri' => get_template_directory_uri()."/images/bigdata.png" );
         endif;
         update_option( 'widget_ctup-ads-widget', $ourfocus_content );
         $zerif_lite_counter++;
 
         /* our focus widget #3 */
         $active_widgets[ 'sidebar-ourfocus' ][] = 'ctup-ads-widget-' . $zerif_lite_counter;
-        if ( file_exists( get_stylesheet_directory_uri().'/images/ccc.png' ) ):
-            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'JAVASCRIPT', 'text' => 'We deliver responsive web apps utilising technologies such as AngularJS that look great on mobile and desktop.', 'link' => '#', 'image_uri' => get_stylesheet_directory_uri()."/images/ccc.png" );
+        if ( file_exists( get_stylesheet_directory_uri().'/images/angular.png' ) ):
+            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'JAVASCRIPT', 'text' => 'We deliver responsive web apps utilising technologies such as AngularJS that look great on mobile and desktop.', 'link' => '#', 'image_uri' => get_stylesheet_directory_uri()."/images/angular.png" );
         else:
-            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'JAVASCRIPT', 'text' => 'We deliver responsive web apps utilising technologies such as AngularJS that look great on mobile and desktop.', 'link' => '#', 'image_uri' => get_template_directory_uri()."/images/ccc.png" );
+            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'JAVASCRIPT', 'text' => 'We deliver responsive web apps utilising technologies such as AngularJS that look great on mobile and desktop.', 'link' => '#', 'image_uri' => get_template_directory_uri()."/images/angular.png" );
         endif;
         update_option( 'widget_ctup-ads-widget', $ourfocus_content );
         $zerif_lite_counter++;
 
         /* our focus widget #4 */
         $active_widgets[ 'sidebar-ourfocus' ][] = 'ctup-ads-widget-' . $zerif_lite_counter;
-        if ( file_exists( get_stylesheet_directory_uri().'/images/ti-logo.png' ) ):
-            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'DEV OPS', 'text' => 'Production experience getting applications into the cloud using technologies such as Docker and Chef.', 'link' => '#', 'image_uri' => get_stylesheet_directory_uri()."/images/ti-logo.png" );
+        if ( file_exists( get_stylesheet_directory_uri().'/images/docker.png' ) ):
+            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'DEV OPS', 'text' => 'Production experience getting applications into the cloud using technologies such as Docker and Chef.', 'link' => '#', 'image_uri' => get_stylesheet_directory_uri()."/images/docker.png" );
         else:
-            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'DEV OPS', 'text' => 'Production experience getting applications into the cloud using technologies such as Docker and Chef.', 'link' => '#', 'image_uri' => get_template_directory_uri()."/images/ti-logo.png" );
+            $ourfocus_content[ $zerif_lite_counter ] = array ( 'title' => 'DEV OPS', 'text' => 'Production experience getting applications into the cloud using technologies such as Docker and Chef.', 'link' => '#', 'image_uri' => get_template_directory_uri()."/images/docker.png" );
         endif;
         update_option( 'widget_ctup-ads-widget', $ourfocus_content );
         $zerif_lite_counter++;
